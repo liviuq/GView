@@ -98,6 +98,7 @@ enum class Subcategory : uint32 {
     // Multimedia
     RIFF,
     SWF,
+    PDF,
 
     // Special Strings
     Email,
@@ -260,6 +261,7 @@ static const TypesMap TYPES_MAP{
         "video, though it can be used for arbitrary data.",
         false } },
     { Subcategory::SWF, { "SWF", "SWF is a defunct Adobe Flash file format that was used for multimedia, vector graphics and ActionScript.", false } },
+    { Subcategory::PDF, { "PDF", "Portable Document Format is a file format developed by Adobe in 1992 to present documents, including text formatting and images", true } },
 
     // special strings
     { Subcategory::Email, { "Email address", "An email address identifies an email box to which messages are delivered.", true } },
