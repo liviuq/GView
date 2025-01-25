@@ -332,7 +332,7 @@ static const std::map<Category, std::vector<Subcategory>> CATEGORY_TO_SUBCATEGOR
     { Category::Executables, { Subcategory::MZPE, Subcategory::MachO, Subcategory::MachOFat, Subcategory::COFF, Subcategory::ELF } },
     { Category::HtmlObjects, { Subcategory::IFrame, Subcategory::PHP, Subcategory::Script, Subcategory::XML } },
     { Category::Image, { Subcategory::BMP, Subcategory::JPG, Subcategory::PNG, Subcategory::GIF } },
-    { Category::Multimedia, { Subcategory::RIFF, Subcategory::SWF } },
+    { Category::Multimedia, { Subcategory::RIFF, Subcategory::SWF, Subcategory::PDF } },
     { Category::SpecialStrings, { Subcategory::Email, Subcategory::Filepath, Subcategory::IP, Subcategory::Registry, Subcategory::URL, Subcategory::Wallet } },
 };
 
